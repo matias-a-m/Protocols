@@ -7,7 +7,13 @@ protocol UserProtocol{
     func getFullName()-> String
 }
 
-struct UserMode: UserProtocol{
+extension UserProtocol{
+    func getAge(age: Int)-> String{
+        ""
+    }
+}
+
+struct UserModel: UserProtocol{
     var name: String
     
     var lastName: String
@@ -16,5 +22,12 @@ struct UserMode: UserProtocol{
         name+" "+lastName
     }
     
-    
+    func getAge(age: Int)-> String{
+       "Edad: \(age)"
+    }
+
 }
+
+let user = UserModel(name: "Matías", lastName: "Molina")
+user.getFullName()
+user.getAge(age: 36)
