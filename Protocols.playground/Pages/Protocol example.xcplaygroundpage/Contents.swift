@@ -1,11 +1,10 @@
 import UIKit
 
 protocol UserProtocol{
-    
     var name: String{get}
     var lastName: String{get}
     
-    func getFullyName()-> String
+    func getFullName()-> String
 }
 
 struct UserMode: UserProtocol{
@@ -13,8 +12,8 @@ struct UserMode: UserProtocol{
     
     var lastName: String
     
-    func getFullyName() -> String {
-        return "\(name) \(lastName)"
+    func getFullName() -> String {
+        name+" "+lastName
     }
     
     
