@@ -1,2 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'/>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='1. Autenticación de Usuario'/>
+        <page name='2. Manejo de Archivos'/>
+        <page name='3. Notificaciones'/>
+        <page name='4. Manejo de Datos en la Nube'/>
+        <page name='5. Geolocalización'/>
+        <page name='6. Gestión de Cámara'/>
+        <page name='7. Manejo de Multimedia'/>
+        <page name='8. Interfaz de Usuario Reutilizable'/>
+        <page name='9. Integración de API Externa'/>
+        <page name='10. Integración de Sensores'/>
+    </pages>
+</playground>
